@@ -174,7 +174,7 @@ Need a bit of security? Use SSL sockets!
 
 ### Control/Status Server
 
-Puma comes with a builtin status/control app that can be used query and control Puma itself. Here is an example of starting Puma with the control server:
+Puma comes with a builtin status/control app that can be used to query and control Puma itself. Here is an example of starting Puma with the control server:
 
     $ puma --control tcp://127.0.0.1:9293 --control-token foo
 
